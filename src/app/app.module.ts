@@ -9,6 +9,7 @@ import {HomepageComponent} from "./components/homepage/homepage.component";
 import {LoginComponent} from "./components/login/login.component";
 import {LandingPageComponent} from "./components/landing-page/landing-page.component";
 import {SignupComponent} from "./components/signup/signup.component";
+import {DisplayhelloworldComponent} from "./components/displayhelloworld/displayhelloworld.component";
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'signup', component: SignupComponent},
   {path: 'landingpage', component: LandingPageComponent},
+  {path: 'displayhelloworld', component: DisplayhelloworldComponent},
 ]
 
 
@@ -35,6 +37,7 @@ AppComponent,
     LoginComponent,
     LandingPageComponent,
     SignupComponent,
+    DisplayhelloworldComponent,
   ],
 
   providers: [
